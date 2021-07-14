@@ -1,7 +1,7 @@
 ## Cheat Sheet for Perl
 
 
-# Perl Functions by Category
+# [Perl Functions by Category](https://perldoc.perl.org/functions)
 
 
 | Functions for SCALARs or strings  | Description |
@@ -99,6 +99,12 @@ gmtime, localtime, time, times
 
 Non-function keywords
 and, AUTOLOAD, BEGIN, CHECK, cmp, CORE, __DATA__, default, DESTROY, else, elseif, elsif, END, __END__, eq, for, foreach, ge, given, gt, if, INIT, le, lt, ne, not, or, UNITCHECK, unless, until, when, while, x, xor
+
+
+# [Perl operators and precedence](https://perldoc.perl.org/perlop)
+# [Perl variables](https://perldoc.perl.org/variables)
+# [Perl modules](https://perldoc.perl.org/modules)
+# [Perl utilities](https://perldoc.perl.org/perlutil)
 
 
 Functions acquired from https://perldoc.perl.org/
