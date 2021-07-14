@@ -32,7 +32,13 @@
 
 | Regular expressions and pattern matching  | Description |
 | --- | --- |
-m//, pos, qr//, quotemeta, s///, split, study
+|m// |   |
+| pos |   |
+| qr// |   |
+| quotemeta |   |
+| s/// |   |
+| split |   |
+| study |   |
 
 |Numeric functions  | Description |
 | --- | --- |
