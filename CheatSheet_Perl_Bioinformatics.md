@@ -351,6 +351,35 @@ delete |   |
 
 
 # [Perl operators and precedence](https://perldoc.perl.org/perlop)
+
+|   |   |   |
+|---|---|---|
+| left       | terms and list operators (leftward) |   |
+| left       | -> |   |
+| nonassoc   | ++ -- |   |
+| right      | ** |   |
+| right      | ! ~ ~. \ and unary + and - |   |
+| left       | =~ !~ |   |
+| left       | * / % x |   |
+| left       | + - . |   |
+| left       | << >> |   |
+| nonassoc   | named unary operators |   |
+| nonassoc   | isa |   |
+| chained    | < > <= >= lt gt le ge |   |
+| chain/na   | == != eq ne <=> cmp ~~ |   |
+| left       | & &. |   |
+| left       | | |. ^ ^. |   |
+| left       | && |   |
+| left       | || // |   |
+| nonassoc   | ..  ... |   |
+| right      | ?: |   |
+| right      | = += -= *= etc. goto last next redo dump |   |
+| left       | , => |   |
+| nonassoc   | list operators (rightward) |   |
+| right      | not |   |
+| left       | and |   |
+| left       | or xor |   |
+
 # [Perl variables](https://perldoc.perl.org/variables)
 # [Perl modules](https://perldoc.perl.org/modules)
 # [Perl utilities](https://perldoc.perl.org/perlutil)
