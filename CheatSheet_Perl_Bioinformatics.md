@@ -47,7 +47,7 @@ abs |   |
 | cos |   |
 | exp |   |
 | hex |   |
-| int |   |
+| int | It gives the integer portion of the number  |
 | log |   |
 | oct |   |
 | rand |   |
@@ -352,7 +352,9 @@ delete |   |
 
 # [Perl operators and precedence](https://perldoc.perl.org/perlop)
 
-|   |   |   |
+Presence and associativity of perl operators
+
+|   |   | Description  |
 |---|---|---|
 | left       | terms and list operators (leftward) |   |
 | left       | -> |   |
@@ -360,7 +362,7 @@ delete |   |
 | right      | ** |   |
 | right      | ! ~ ~. \ and unary + and - |   |
 | left       | =~ !~ |   |
-| left       | * / % x |   |
+| left       | * / % x | Arithmetic operators  |
 | left       | + - . |   |
 | left       | << >> |   |
 | nonassoc   | named unary operators |   |
