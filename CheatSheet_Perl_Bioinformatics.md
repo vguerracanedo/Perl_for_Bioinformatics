@@ -368,7 +368,7 @@ Presence and associativity of perl operators
 | nonassoc   | named unary operators |   |
 | nonassoc   | isa |   |
 | chained    | < > <= >= lt gt le ge |   |
-| chain/na   | == != eq ne <=> cmp ~~ |   |
+| chain/na   | == != eq ne <=> cmp ~~ | Relational operator  |
 | left       | & &. |   |
 | left       | | |. ^ ^. |   |
 | left       | && |   |
